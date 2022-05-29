@@ -14,13 +14,13 @@ body{position:relative}
 .mypage-text{margin-left:35px;margin-bottom:0;font-size:70px;font-family:'Roboto', sans-serif;font-weight:700;line-height:.8;position:relative}
 
 /* side-text */
-.side-txt{position:absolute;width:20%;height:calc(100% - 585px);z-index:1;overflow:hidden;top:0;right:0}
-.txt{position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:260px;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
+.side-txt{position:absolute;width:25%;height:calc(100% - 585px);z-index:1;overflow:hidden;top:0;right:0}
+.txt{position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
 
 /* container */
-.main-container{padding-top:91px;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;justify-content:center}
+.main-container{padding-top:5.3vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;justify-content:center}
 .main-top-container{display:flex;flex-direction:row;justify-content:center}
-.purchase-history-container{margin-top:70px;display:flex;flex-direction:column;align-items:center}
+.purchase-history-container{margin-top:4vw;display:flex;flex-direction:column;align-items:center}
 
 /* side-menu */
 .shopping-info-container, .member-info-container{width:13vw;display:flex;align-items:center;justify-content:center;border:0.1vw solid #707070}
@@ -46,8 +46,8 @@ body{position:relative}
 .main-top-container .profile-card-container .profile-edit-btn:hover{background-color:#fff;border:0.3vw solid #707070}
 
 /* purchase-history-container */
-.purchase-history-text{margin-bottom:60px;font-size:70px;font-weight:700}
-.purchase-history-card-container{width:64.6vw;height:12.8vw;margin-top:40px;display:flex;flex-direction:row;border:0.1vw solid #707070}
+.purchase-history-text{margin-bottom:2vw;font-size:4vw;font-weight:700}
+.purchase-history-card-container{width:64.6vw;height:12.8vw;margin-top:3vw;display:flex;flex-direction:row;border:0.1vw solid #707070}
 .product-thumb-container{flex:1;border-right:0.1vw solid #707070}
 .product-content-container{display:flex;flex-direction:column;align-self:center;flex:2}
 .product-brand-area p{margin:3vw 1.5vw 0;font-size:2.2vw;letter-spacing:-0.15vw;text-decoration:underline;text-underline-position:under;text-decoration-thickness:0.15vw}

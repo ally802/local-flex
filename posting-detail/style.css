@@ -14,11 +14,11 @@ body{position: relative}
 .mypage-text{margin-left:35px;margin-bottom:0;font-size:70px;font-family:'Roboto', sans-serif;font-weight:700;line-height:.8;position:relative}
 
 /* side-text */
-.side-txt{position:absolute;width:20%;height:calc(100% - 585px);z-index:1;overflow:hidden;top:0;right:0}
-.txt{position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:260px;font-family:'Segoe UI';font-weight:bold;color:#000;opacity:.12}
+.side-txt{position:absolute;width:25%;height:calc(100% - 585px);z-index:1;overflow:hidden;top:0;right:0}
+.txt{position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
 
 /* main-container */
-.main-container{padding-top:91px;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;align-items:center}
+.main-container{padding-top:3.5vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;align-items:center}
 
 /* big-post-card-container */
 .big-post-card-container{width:68vw;height:34vw;border:0.1vw solid #707070;display:flex;flex-direction:row}
@@ -28,10 +28,11 @@ body{position: relative}
 .big-post-card-container .content-bottom-container{padding:1.5vw;flex:1;display:flex;flex-direction:column}
 .big-post-card-container .user-id-area p{margin:0;font-size:1.7vw;text-decoration:underline;text-underline-position:under;text-decoration-thickness:0.15vw}
 .big-post-card-container .post-title-area p{margin:0;font-size:2.2vw}
-.big-post-card-container .post-response-area{flex:1;display:flex;flex-direction:column;justify-content:flex-end}
-.big-post-card-container .post-response-area p{margin:0;font-size:1.7vw;text-align:right}
+.big-post-card-container .post-response-area{flex:1;display:flex;flex-direction:row;justify-content:flex-end;align-items:flex-end}
+.post-like-container, .post-comment-container{display:flex;align-items:center}
+.big-post-card-container .post-response-area p{margin:0 .5vw;font-size:1.8vw;text-align:right}
 .big-post-card-container .product-img-container{display:flex;justify-content:space-between}
-.big-post-card-container .product-thumb-container{width:5.9vw;height:5.9vw;margin-top:1.4vw;border-radius:0.6vw;border:1px solid #000}
+.big-post-card-container .product-thumb-container{width:5.9vw;height:5.9vw;margin-top:1.4vw;border-radius:0.6vw;border:0.1vw solid #707070}
 
 /* comments-container */
 .comments-container{width:68vw;display:flex;flex-direction:column;border:0.1vw solid #707070;border-top:none}
@@ -58,9 +59,9 @@ body{position: relative}
 .register-comments-btn button{width:100%;height:3vw;font-size:1.4vw;background-color:#fff;border:0.1vw solid #707070}
 
 /* related-post-container */
-.related-post-container{width:90%;margin-top:50px;display:flex;flex-direction:column;align-items:center}
+.related-post-container{width:90%;margin-top:4.6vw;display:flex;flex-direction:column;align-items:center}
 .related-post-text p{margin:0;font-size:2.2vw}
-.posting-card-row-bundle-container{width:100%;margin-top:77px;display:flex;justify-content:space-evenly}
+.posting-card-row-bundle-container{width:100%;margin-top:7vw;display:flex;justify-content:space-evenly}
 .post-card-container{width:19.4vw;text-align:left;border:0.1vw solid #000;z-index:2}
 .post-card-container .post-thumb-container{height:19.4vw}
 .post-card-container .post-content-container{height:10vw;padding:0.3vw 0.6vw;border-top:0.1vw solid #000}
@@ -69,7 +70,7 @@ body{position: relative}
 .post-card-container .post-response-area p{margin:0}
 .post-card-container .user-id-area,.post-card-container .post-response-area{font-size:0.8vw;}
 .post-card-container .product-img-container{display:flex;justify-content:space-between}
-.post-card-container .product-thumb-container{width:4.2vw;height:4.2vw;margin-top:0.9vw;border-radius:0.6vw;border:1px solid #000}
+.post-card-container .product-thumb-container{width:4.2vw;height:4.2vw;margin-top:0.9vw;border-radius:0.6vw;border:0.1vw solid #000}
 
 /* footer */
 footer{height:585px;margin-top:160px;background:#f9f9f9;padding:50px 0;text-align:left;display:flex;align-items:center}

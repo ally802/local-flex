@@ -12,6 +12,13 @@
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 </head>
 
@@ -27,293 +34,493 @@
 
     <h1 class="style-text">STYLE</h1>
 
-    <div class="tab">
-        <div class="tab-wrap">
-            <ul>
-                <li data-id="con1">인기</li>
-                <li data-id="con2" class="on">메인</li>
-                <li data-id="con3">팔로잉</li>
-            </ul>
+    <div class="side-txt">
+        <div class="txt">
+            FLEX FOR LIMITED EDITION TRANSACTION
         </div>
+    </div>
+    
+    <div class="tab-container">
+        <div class="tab">
+            <div class="tab-wrap">
+                <ul>
+                    <li data-id="con1">인기</li>
+                    <li data-id="con2" class="on">메인</li>
+                    <li data-id="con3">팔로잉</li>
+                </ul>
+            </div>
 
-        <!-- style-popular -->
-        <div id="con1" class="conBox">
-            <div class="cont-wrap">
-                <div class="style-content">
-                    <div class="st-img"></div>
-                    <div class="popularcard">
-                        <p>@kimchi<br><span>봄인줄 알았지만 겨울이었다.<br></span>(하트) 12 (댓글) 2</p>
-                        <div class="sm-img-wrap">
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
+            <!-- style-popular -->
+            <div id="con1" class="conBox">
+                <div class="cont-wrap">
+                    <div class="style-content">
+                        <div class="st-img"></div>
+                        <div class="popularcard">
+                            <p>@kimchi<br><span>봄인줄 알았지만 겨울이었다.<br></span>(하트) 12 (댓글) 2</p>
+                            <div class="sm-img-wrap">
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="style-content">
-                    <div class="st-img"></div>
-                    <div class="popularcard">
-                        <p>@kimchi<br><span>봄인줄 알았지만 겨울이었다.<br></span>(하트) 12 (댓글) 2</p>
-                        <div class="sm-img-wrap">
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
+                    <div class="style-content">
+                        <div class="st-img"></div>
+                        <div class="popularcard">
+                            <p>@kimchi<br><span>봄인줄 알았지만 겨울이었다.<br></span>(하트) 12 (댓글) 2</p>
+                            <div class="sm-img-wrap">
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="style-content" style="margin-bottom:64px;">
-                    <div class="st-img"></div>
-                    <div class="popularcard">
-                        <p>@kimchi<br><span>봄인줄 알았지만 겨울이었다.<br></span>(하트) 12 (댓글) 2</p>
-                        <div class="sm-img-wrap">
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
-                            <div class="card-sm-img"></div>
+                    <div class="style-content" style="margin-bottom:64px;">
+                        <div class="st-img"></div>
+                        <div class="popularcard">
+                            <p>@kimchi<br><span>봄인줄 알았지만 겨울이었다.<br></span>(하트) 12 (댓글) 2</p>
+                            <div class="sm-img-wrap">
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                                <div class="card-sm-img"></div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <!-- style-main -->
-        <div id="con2" class="conBox on">
-            <h4 class="tit">최근 뜨고있는 스니커즈!!</h4>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
+            <!-- style-main -->
+            <div id="con2" class="conBox on">
+                <p class="tit">최근 뜨고있는 스니커즈!!</p>
+                <div class="posting-card-bundle-container">
+                    <!-- 카드 한 줄 시작 -->
+                    <div class="posting-card-row-bundle-container">
+                        <!-- 카드 한 개 시작 -->
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 카드 한 개 끝 -->
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
+                    <!-- 카드 한 줄 끝 -->
+                </div>
+                <p class="tit">나만 조던 없어!!?</p>
+                <div class="posting-card-bundle-container">
+                    <!-- 카드 한 줄 시작 -->
+                    <div class="posting-card-row-bundle-container">
+                        <!-- 카드 한 개 시작 -->
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 카드 한 개 끝 -->
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
+                    <!-- 카드 한 줄 끝 -->
+                </div>
+                <p class="tit">봄에는 스톤~~</p>
+                <div class="posting-card-bundle-container">
+                    <!-- 카드 한 줄 시작 -->
+                    <div class="posting-card-row-bundle-container">
+                        <!-- 카드 한 개 시작 -->
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 카드 한 개 끝 -->
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="post-card-container">
+                            <div class="post-thumb-container">
+                                <img src="" alt="No Image Here" class="post-thumb-img">
+                            </div>
+                            <div class="post-content-container">
+                                <div class="user-id-area">
+                                    <p>@kimchi</p>
+                                </div>
+                                <div class="post-title-area">
+                                    <p>봄인줄 알았지만 겨울이었다.</p>
+                                </div>
+                                <div class="post-response-area">
+                                    <p>(하트) 12 (댓글) 2</p>
+                                </div>
+                                <div class="product-img-container">
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
+                                    <div class="product-thumb-container">
+                                        <img src="" alt="No Image Here" class="product-thumb-img">
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                    <!-- 카드 한 줄 끝 -->
                 </div>
             </div>
-            <h4 class="tit">나만 조던 없어!!?</h4>
-            <div class="container">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
+            <!-- style-following -->
+            <div id="con3" class="conBox">
+                <div class="cont-wrap" style="margin-top:109px">
+                    <div class="lineimg">
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="lineimg">
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="lineimg">
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="lineimg">
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
                     </div>
-                </div>
-            </div>
-            <h4 class="tit">봄에는 스톤~~</h4>
-            <div class="container" style="margin-bottom:146px;">
-                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="lineimg">
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="lineimg">
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
+                        <div class="flimg"></div>
                     </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card" style="width: 18rem;">
-                            <img src="Img/img-sample2.png" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                <p class="card-text"><span class="card-text-tit">@kimchi<br></span>봄인줄 알았지만
-                                    겨울이었다.<br><span class="card-text-tit">(하트) 12 (댓글) 2</span></p>
-                                <div class="sm-img-wrap">
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                    <div class="card-sm-img"></div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- style-following -->
-        <div id="con3" class="conBox">
-            <div class="cont-wrap" style="margin-top:109px">
-                <div class="lineimg">
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                </div>
-                <div class="lineimg">
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                </div>
-                <div class="lineimg">
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                </div>
-                <div class="lineimg">
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                </div>
-                <div class="lineimg">
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                </div>
-                <div class="lineimg">
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
-                    <div class="flimg"></div>
                 </div>
             </div>
         </div>
@@ -323,12 +530,12 @@
             <img src="Img/logo.png" alt="footer-logo" style="padding-bottom:50px">
             <p>이용안내 | 검수기준 | 이용정책 | 패널티 정책 | 커뮤니티 가이드라인</p>
             <p>회사소개 인재채용 제휴제안 이용약관 개인정보처리방침</p>
-            <a>크림 주식회사 . 대표김창욱사업자등록번호:570-88-01618사업자정보확인통신판매업:제 2021-성남분당C-0093호<a>
+            <a>FLEX 주식회사 · 대표:문동환 사업자등록번호:570-11-012342 사업자정보확인통신판매업: 제 2033-흑석C-0293호<a>
                     <br>
-                    <a>사업장소재지:경기도 성남시 분당구 분당내곡로 117, 8층개인정보관리책임자:김미진호스팅 서비스:네이버 클라우드 (주)</a>
+                    <a>사업장소재지: 경기도 안양시 동안구 임곡로 29, 전산관 5층 개인정보관리책임자: 안다희 호스팅서비스: 김대건</a>
                     <br>
                     <br>
-                    <a>크림(주)는 통신판매 중개자로서 통신판매의 당사자가 아니므로 개별 판매자가 등록한 상품정보에 대해서 책임을 지지 않습니다.</a>
+                    <a>FLEX(주)는 통신판매 중개자로서 통신판매의 당사자가 아니므로 개별 판매자가 등록한 상품정보에 대해서 책임을 지지 않습니다.</a>
                     <br>
                     <a> 단, 거래과정에서 검수하고 보증하는 내용에 대한 책임은 당사에 있습니다.</a>
         </div>
