@@ -4,7 +4,7 @@ header{font-size:30px;width:100%;margin:0 auto;padding:0 30px;background-color:#
 .header-logo{margin:4px 0 11px}
 nav{display:inline-block;float:left}
 nav{text-align:center;float:right}
-nav a{color:#000000;text-decoration:none;padding:33px 30px;display:inline-block;font-size:18px;font-weight:500;font-family:'Noto Sans KR',sans-serif;line-height:40px}
+nav a{color:#000000;text-decoration:none;padding:33px 30px;display:inline-block;font-size:22px;font-weight:initial;font-family:'Noto Sans KR',sans-serif;line-height:40px}
 nav a:hover{border-bottom:3px solid #282a35;padding-bottom:31px;color:#000000}
 .shadow {box-shadow:0 .3rem 1rem rgba(0,0,0,.05)!important}
 
@@ -15,7 +15,7 @@ body{position: relative}
 
 /* side-text */
 .side-txt{position:absolute;width:25%;height:calc(100% - 585px);z-index:-1;overflow:hidden;top:0;right:0}
-.txt{position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
+.txt{transform:translate(0,107px);position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
 
 /* main-container */
 .main-container{padding-top:1.5vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;align-items:center}
