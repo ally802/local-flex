@@ -9,6 +9,7 @@ nav a:hover{border-bottom:3px solid #282a35;padding-bottom:31px;color:#000000}
 .shadow {box-shadow:0 .3rem 1rem rgba(0,0,0,.05)!important}
 
 body{position:relative}
+form{font-family:'Noto Sans KR',sans-serif}
 
 /* top-text */
 .signin-text{margin-left:35px;margin-bottom:0;font-size:70px;font-family:'Roboto', sans-serif;font-weight:700;line-height:.8;position:relative}
@@ -18,16 +19,18 @@ body{position:relative}
 .txt{transform:translate(0,107px);position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
 
 .wrapper{display:flex;justify-content:center;align-items:center;min-height:100vh}
-form{width:36.7vw;font-size:1rem;border:0.1vw solid #707070;padding:5vw 5vw 3.2vw}
+form{width:36.7vw;font-size:1rem;border:0.1vw solid #707070;padding:5vw}
 .signlogo{display:block;margin:0 auto;margin-bottom:3vw}
 .smform{padding:0 5.9vw}
+input{width:100%;height:2vw;margin-bottom:1vw;border:none;border-bottom:0.1vw solid #afafaf}
+input:focus{outline:none}
+.email-container input{margin-bottom:3vw}
 .smform-btn{display:table;width:100%;table-layout:fixed}
 .smform-btn a{font-size:.5vw;text-decoration:none;color:#000;display:table-cell;text-align:center}
 .smform-btn a:hover{color:#000}
 
-button{width:100%;height:4.2vw;margin-top:2vw;border:none;border-radius:1vw;background-color:#afafaf;color:#fff;font-size:1.2vw;font-family:'Noto Sans KR',sans-serif}
-.stbtn:hover{background-color:#000;font-family:'Noto Sans KR',sans-serif}
-button:hover{background-color:#2EEF00;font-family:'Noto Sans KR',sans-serif}
+button{width:100%;height:4.2vw;margin-top:5vw;border:none;border-radius:1vw;background-color:#afafaf;color:#fff;font-size:1.2vw}
+.stbtn:hover{background-color:#000}
 
 /* footer */
 footer{height:585px;background:#f9f9f9;padding:50px 0;text-align:left;display:flex;align-items:center}

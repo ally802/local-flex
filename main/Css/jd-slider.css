@@ -45,9 +45,9 @@
 .jd-slider.main-slide > li{width:100%}
 .jd-slider.main-slider .slide-area > li > a{height:630px;margin:0;border-radius:0;box-shadow:none}
 .jd-slider.main-slider .slide-area > li > a:hover{box-shadow:none}
-.jd-slider.main-slider .slide-area > li > a img{height:auto;border-radius:0}
+.jd-slider.main-slider .slide-area > li > a img{height:100%;border-radius:0}
 .jd-slider.main-slider .next, .jd-slider.main-slider .prev{color:#afafaf;padding:20px}
-.jd-slider.main-slider .next:hover, .jd-slider.main-slider .prev:hover{color:#707070}
+.jd-slider.main-slider .next:hover, .jd-slider.main-slider .prev:hover{color:#707070;opacity:.8}
 .jd-slider.main-slider .controller{position:absolute;bottom:20px}
 .jd-slider.main-slider .controller .auto i{color:#fff}
 .jd-slider.main-slider .controller .auto.pause .fa-pause, .jd-slider.main-slider .controller .auto.play .fa-play{color:#fff}

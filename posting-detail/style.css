@@ -38,7 +38,8 @@ body{position: relative}
 
 /* comments-container */
 .comments-container{width:68vw;display:flex;flex-direction:column;border:0.1vw solid #707070;border-top:none}
-.comments-area{padding:2vw 2vw}
+.comments-area{padding:2vw 2vw;max-height:50vh;overflow-y:scroll;-ms-overflow-style:none}
+.comments-area::-webkit-scrollbar{display:none}
 .comments-text-area p{margin:0;font-size:1.9vw}
 .comments{margin:2vw 0 4vw;display:flex;align-items:center}
 .profile-thumb-container{width:4.2vw;height:4.2vw;border:0.1vw solid #707070;position:relative}
