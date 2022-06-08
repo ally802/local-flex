@@ -39,11 +39,13 @@
       <div class="smform">
         <div class="email-container">
           <p>이메일 주소</p>
-          <input type="text" placeholder="예) kimchi@naver.com">
+          <input type="text" placeholder="예&#41; kimchi@naver.com" onfocus="this.placeholder=''"
+          onblur="this.placeholder='예&#41; kimchi@naver.com'">
         </div>
         <div class="password-container">
           <p>비밀번호</p>
-          <input type="text" placeholder="영문,숫자,특수문자 조합 8-16자">
+          <input type="text" placeholder="영문,숫자,특수문자 조합 8-16자" onfocus="this.placeholder=''"
+          onblur="this.placeholder='영문,숫자,특수문자 조합 8-16자'">
         </div>
       </div>
       <div class="agree-container">

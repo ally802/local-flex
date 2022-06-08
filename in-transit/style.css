@@ -18,9 +18,10 @@ body{position:relative}
 .txt{transform:translate(0,107px);position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
 
 /* container */
-.main-container{padding-top:5.3vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;justify-content:center}
+.main-container{padding-top:5.3vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;align-items:center}
 .main-top-container{display:flex;flex-direction:row;justify-content:center}
-.cart-container{margin-top:4vw;display:flex;flex-direction:column;align-items:center}
+.cart-container{display:flex;flex-direction:column;align-items:center;max-height:70vh;overflow-y:scroll;-ms-overflow-style:none}
+.cart-container::-webkit-scrollbar{display:none}
 
 /* side-menu */
 .shopping-info-container, .member-info-container{width:13vw;display:flex;align-items:center;justify-content:center;border:0.1vw solid #707070}
@@ -47,7 +48,7 @@ body{position:relative}
 .main-top-container .profile-card-container .profile-edit-btn:hover{background-color:#fff;border:0.3vw solid #707070}
 
 /* cart-container */
-.cart-text{margin-bottom:2vw;font-size:4vw;font-weight:700}
+.cart-text{margin-top:4vw;margin-bottom:2vw;font-size:4vw;font-weight:700}
 .cart-card-container{width:64.6vw;height:12.8vw;display:flex;flex-direction:row;border:0.1vw solid #707070}
 input{width:2.5vw;height:2.5vw;cursor:pointer}
 .check-cart-container input{margin-right:2vw}
@@ -64,7 +65,7 @@ input{width:2.5vw;height:2.5vw;cursor:pointer}
 .quantity-container .minus{margin-bottom:.5vw;font-size:3vw;font-weight:100;line-height:.5}
 .quantity-container p, .delete-container p{margin:0;font-size:1.4vw}
 .delete-container button{font-size:1.3vw;background-color:#fff;border:0.1vw solid #707070}
-.select-area{width:70%;margin-top:2vw;display:flex;flex-direction:row;justify-content:flex-end;align-items:center}
+.select-area{width:69.1vw;margin-top:2vw;display:flex;flex-direction:row;justify-content:flex-end;align-items:center}
 .select-area label{margin-left:.5vw;font-size:1.6vw}
 .ordering-btn{margin-left:2.3vw;padding:.2vw .7vw;color:#fff;font-size:1.4vw;background-color:#707070;border:0.1vw solid #707070;border-radius:.8vw;z-index:2}
 .ordering-btn:hover{background-color:#000;border:0.1vw solid #000}

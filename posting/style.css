@@ -60,6 +60,8 @@ li{list-style:none}
 .follw-number{margin:0;font-size:2.2vw}
 .follow-card-row-bundle-container{width:100%;margin-top:4.5vw;display:flex;justify-content:space-evenly}
 .follow-card-row-bundle-container:first-child{margin-top:3vw}
+.follow-card-bundle-container{max-height:90vh;overflow-y:scroll;-ms-overflow-style:none}
+.follow-card-bundle-container::-webkit-scrollbar{display:none}
 .follow-card-bundle-container .profile-card-container{width:35vw;height:17.5vw;text-align:left;display:flex;flex-direction:row;border:0.1vw solid #707070}
 .follow-card-bundle-container .profile-thumb-container{flex:1;position:relative;overflow:hidden}
 .follow-card-bundle-container .profile-thumb-container img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%}
@@ -74,6 +76,8 @@ li{list-style:none}
 
 /* posting */
 .posting-number{margin:0;font-size:2.2vw}
+.posting-card-bundle-container{max-height:90vh;overflow-y:scroll;-ms-overflow-style:none}
+.posting-card-bundle-container::-webkit-scrollbar{display:none}
 .posting-card-row-bundle-container{width:100%;margin-top:4.5vw;display:flex;justify-content:space-evenly}
 .posting-card-row-bundle-container:first-child{margin-top:3vw}
 .post-card-container{width:19.4vw;text-align:left;border:0.1vw solid #000;z-index:2}

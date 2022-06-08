@@ -1,11 +1,12 @@
 /* header */
 #header{height:107px;background:#fff}
-header{font-size:30px;width:100%;margin:0 auto;padding:0 30px;background-color:#fff;position:fixed;z-index:100;box-shadow:0 4px 10px rgba(0,0,0,0.1)}
+header{font-size:30px;width:100%;margin:0 auto;padding:0 30px;background-color:#fff;position:fixed;z-index:100}
 .header-logo{margin:4px 0 11px}
 nav{display:inline-block;float:left}
 nav{text-align:center;float:right}
 nav a{color:#000000;text-decoration:none;padding:33px 30px;display:inline-block;font-size:22px;font-weight:initial;font-family:'Noto Sans KR',sans-serif;line-height:40px}
 nav a:hover{border-bottom:3px solid #282a35;padding-bottom:31px;color:#000000}
+.shadow {box-shadow:0 .3rem 1rem rgba(0,0,0,.05)!important}
 
 body{position:relative}
 

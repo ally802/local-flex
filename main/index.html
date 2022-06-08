@@ -258,6 +258,18 @@
 
   <!-- Slider Script -->
   <script>
+    var header = $('header');
+
+    $(window).scroll(function (e) {
+      if (header.offset().top !== 0) {
+        if (!header.hasClass('shadow')) {
+          header.addClass('shadow');
+        }
+      } else {
+        header.removeClass('shadow');
+      }
+    });
+
     window.onload = function () {
       $('.main-slider').jdSlider({
         wrap: '.slide-inner',
@@ -277,6 +289,7 @@
         }]
       });
     };
+    
     Zepto(function ($) {
       $(window).on('load', function () {
         $.each($(".ezkorry-roller"), function (index, item) {

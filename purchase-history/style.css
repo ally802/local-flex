@@ -18,9 +18,10 @@ body{position:relative}
 .txt{transform:translate(0,107px);position:absolute;right:2rem;writing-mode:vertical-rl;white-space:nowrap;font-size:15.2vw;font-family:'Roboto', sans-serif;font-weight:bold;color:#000;opacity:.12}
 
 /* container */
-.main-container{padding-top:5.3vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;justify-content:center}
+.main-container{padding-top:5.3vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;align-items:center}
 .main-top-container{display:flex;flex-direction:row;justify-content:center}
-.purchase-history-container{margin-top:4vw;display:flex;flex-direction:column;align-items:center}
+.purchase-history-container{display:flex;flex-direction:column;align-items:center;max-height:70vh;overflow-y:scroll;-ms-overflow-style:none}
+.purchase-history-container::-webkit-scrollbar{display:none}
 
 /* side-menu */
 .shopping-info-container, .member-info-container{width:13vw;display:flex;align-items:center;justify-content:center;border:0.1vw solid #707070}
@@ -47,7 +48,7 @@ body{position:relative}
 .main-top-container .profile-card-container .profile-edit-btn:hover{background-color:#fff;border:0.3vw solid #707070}
 
 /* purchase-history-container */
-.purchase-history-text{margin-bottom:2vw;font-size:4vw;font-weight:700}
+.purchase-history-text{margin-top:4vw;margin-bottom:2vw;font-size:4vw;font-weight:700}
 .purchase-history-card-container{width:64.6vw;height:12.8vw;margin-top:3vw;display:flex;flex-direction:row;border:0.1vw solid #707070}
 .product-thumb-container{flex:1;border-right:0.1vw solid #707070;position:relative}
 .product-thumb-container img{position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);width:100%;height:auto;padding:2rem 2rem}
