@@ -20,8 +20,6 @@ body{position:relative}
 /* container */
 .main-container{padding-top:5.3vw;font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;align-items:center}
 .main-top-container{display:flex;flex-direction:row;justify-content:center}
-.cart-container{display:flex;flex-direction:column;align-items:center;max-height:70vh;overflow-y:scroll;-ms-overflow-style:none}
-.cart-container::-webkit-scrollbar{display:none}
 
 /* side-menu */
 .shopping-info-container, .member-info-container{width:13vw;display:flex;align-items:center;justify-content:center;border:0.1vw solid #707070}
