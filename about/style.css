@@ -13,14 +13,44 @@ body{position:relative}
 /* container */
 .main-container{font-family:'Noto Sans KR',sans-serif;display:flex;flex-direction:column;justify-content:center}
 
-/* first-img */
+/* first-container */
 .img-container{width:100%;height:100vh}
 .first{background-image:url("Img/background.png");background-size:cover}
-.first-img-mockup-container{text-align:center}
-.first-img-mockup{z-index:2}
+.first-img-mockup-container{width:100%;height:90vh;display:flex;align-items:center;justify-content:center;position:absolute}
+.mockup-first{height:69.1vh;margin-bottom:.1vh;margin-left:4vw}
+.mockup-sec{height:55.9vh;margin-top:.62vh}
+.first-text{margin-top:83vh;text-align:center;font-size:4vw;font-family:'Noto Sans KR',sans-serif;font-weight:bold;letter-spacing:-.1vw}
+.first-text p{margin:0}
+
+/* second-container */
+.second{display:flex;justify-content:center;align-items:center;background-color:#000}
+.second-content{text-align:left}
+.second p{color:#fff;font-size:3.8vw;font-family:'Noto Sans KR',sans-serif;font-weight:bold;position:absolute}
+.second-content img{margin:7vw 0 0 7vw}
+
+/* third-container */
+.third{display:flex;align-items:center;background-color:#fff}
+.third-content{margin-left:7vw;text-align:left}
+.third p{margin-bottom:1.5vw;font-size:7vw;font-family:'Noto Sans KR',sans-serif;font-weight:bold}
+
+/* fourth-container */
+.fourth{display:flex;justify-content:center;align-items:center;background-color:#000}
+.fourth-content{text-align:left}
+.fourth p{color:#fff;font-size:5vw;font-family:'Noto Sans KR',sans-serif;font-weight:bold}
+.sec-text{position:absolute}
+.fourth-content img{width:25vw;margin:2vw 0 0 30vw}
+
+/* fifth-container */
+.fifth{display:flex;justify-content:center;align-items:center;background-color:#fff}
+.fifth p{margin:0;margin-left:7vw;font-size:6vw;font-family:'Noto Sans KR',sans-serif;font-weight:bold;letter-spacing:-.1vw}
+.fifth-content img{width:70vw}
+
+/* sixth-container */
+.sixth{display:flex;justify-content:center;align-items:center;background-color:#000}
+.sixth a{color:#fff;font-size:7vw;font-family:'Noto Sans KR',sans-serif;font-weight:bold;text-decoration:none}
 
 /* footer */
-footer{height:585px;margin-top:278px;background:#f9f9f9;padding:50px 0;text-align:left;display:flex;align-items:center}
+footer{height:585px;background:#f9f9f9;padding:50px 0;text-align:left;display:flex;align-items:center}
 footer>div{width:1200px;margin:0 auto}
 .footer-cont p{line-height:4em;border-top:1px solid rgba(0,0,0,.3)}
 .footer-cont p:first-child{border-top:none}
